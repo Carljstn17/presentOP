@@ -51,5 +51,4 @@ img{
 }
 img:hover{
     transform: scale(0.6);
-    opacity: .6;
 }
