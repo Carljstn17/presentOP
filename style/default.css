@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&family=PT+Serif:wght@400;700&display=swap');
+
+html{
+  margin: 0;
+  color:black;
+  scroll-behavior: smooth;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'PT Serif', serif;
+}

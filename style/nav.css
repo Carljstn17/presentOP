@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap'); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Style for navigation */
+.nav {
+  font-family: 'Pirata One', cursive;
+  background-color: rgba(31, 31, 31, 0.9); /* Adjust opacity to your preference */
+  padding: 10px 40px;
+  backdrop-filter: blur(10px); /* Apply a blur effect */
+  overflow: hidden;
+  text-align: right;
+  padding: 10px 20px;
+}
+/* Add styles for the logo */
+.logo {
+    float: left; /* Move the logo to the left */
+    margin-right: 20px; /* Add some right margin for spacing */
+}
+
+/* Add styles for the navigation links */
+.link {
+    float: right; /* Move the links to the right */
+}
+
+
+.nav a {
+  font-weight: 600;
+  color: #e0e0e0; /* Light text color */
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 10px;
+  user-select:none;
+  padding: 0 1rem;
+}
+
+.nav ul{
+    list-style-type:none;
+}
+.nav a.link:hover {
+  color:  rgba(201, 0, 0, 0.9); /* Light text color on hover */
+  background-color: #FFD966; /* Change background color on hover */ 
+  border-radius: 5px; /* Add rounded corners on hover */ 
+}      
+
+#active{
+  background-color: #FFD966; 
+  color: rgba(201, 0, 0, 0.9);
+  border-radius: 5px;
+}
